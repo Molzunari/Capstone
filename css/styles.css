@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+
+nav a{
+    margin: 0.5em;
+    padding: 0.5em;
+    text-decoration: none;
+    color: lightblue;
+    font-size: 2em;
+    background-color: dimgrey;
+}
+
+nav a:hover{
+    background-color: black;
+
+}
+
+nav{
+    
+}
+#login{
+color:blueviolet
+}
+.box{
+    border:1px solid black;
+    margin: 6em;
+    padding: 3em;
+}
