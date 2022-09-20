@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-color: lightcyan;
 }
 
 nav a{
@@ -27,3 +28,9 @@ color:blueviolet
     margin: 6em;
     padding: 3em;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
