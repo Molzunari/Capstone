@@ -1,6 +1,10 @@
 body{
     font-family: sans-serif;
-    background-color: lightcyan;
+    background-color: lightcyan; 
+    background-image: url("/images/night.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 nav a{
@@ -29,8 +33,40 @@ color:blueviolet
     padding: 3em;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.products {
+    display:flex;
+    width:100%;
+    max-width: 1050px;
+    justify-content: space-between;
+    flex-wrap:wrap
+    margin:auto;
+}
+.card {
+    width:160px;
+    flex-basis:32%;
+    margin top:50px:
+}
+.card img {
+    height:250px;
+}
+
+.copyright{
+    position:absolute;
+    bottom: 0;
+    color: black;
+    text-align:right
+    left: 0;
+    right: 0;
+}
+.login ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
     opacity: 1; /* Firefox */
   }
+  .checkout table{
+    width:100%;
+  }
   
+  .money{
+    text-align: right;
+
+  }
