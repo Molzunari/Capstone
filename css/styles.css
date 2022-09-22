@@ -1,10 +1,11 @@
 body{
     font-family: sans-serif;
     background-color: lightcyan; 
-    background-image: url("/images/night.png");
-    background-repeat:no-repeat;
+    background-image: url("/images/sky.png");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+   
 }
 
 nav a{
@@ -25,7 +26,8 @@ nav{
     
 }
 #login{
-color:blueviolet
+color:black
+
 }
 .box{
     border:1px solid black;
@@ -35,28 +37,28 @@ color:blueviolet
 
 .products {
     display:flex;
-    width:100%;
-    max-width: 1050px;
-    justify-content: space-between;
-    flex-wrap:wrap
+    justify-content:space-evenly;
+    flex-wrap:wrap;
     margin:auto;
+    
 }
 .card {
     width:160px;
     flex-basis:32%;
-    margin top:50px:
+    margin-top:50px;
+    justify-content:space-around;
 }
 .card img {
-    height:250px;
+    height:250px; 
 }
 
 .copyright{
-    position:absolute;
-    bottom: 0;
+    position:bottom;
+    bottom: 0%;
     color: black;
-    text-align:right
-    left: 0;
-    right: 0;
+    text-align:right;
+    left:0%;
+    right:0%;
 }
 .login ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
@@ -64,6 +66,9 @@ color:blueviolet
   }
   .checkout table{
     width:100%;
+  }
+  table, th, td {
+    border: 1px solid black;
   }
   
   .money{
